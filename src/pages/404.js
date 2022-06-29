@@ -4,7 +4,6 @@ import * as React from "react"
 import Layout from "../components/layout/layout"
 import Seo from "../components/seo"
 import * as styles from "../styles/404.module.css"
-import plant from "../images/404.png"
 
 const NotFoundPage = () => (
   <Layout>
@@ -14,7 +13,7 @@ const NotFoundPage = () => (
         Oh nee! We zijn jouw pagina kwijt! (404)
       </h1>
       <StaticImage
-        src={plant}
+        src="../images/404.png"
         alt="persoon die fiets herstelt"
         loading="lazy"
         width={500}
