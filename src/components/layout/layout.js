@@ -38,7 +38,11 @@ const Layout = ({ children }) => {
       >
         Omnom Omnom! Wij gebruiken koekjes om jouw ervaring beter te maken. Wil
         je meer weten welke gegevens we verzamelen? Klik{" "}
+<<<<<<< HEAD
         <Link to="/privacy">hier.</Link>
+=======
+        <Link to="/privacy">hier</Link>
+>>>>>>> a9178b60608e2c27a6d0b13bced29dfe54f4dcbc
       </CookieConsent>
       <Footer />
     </>
