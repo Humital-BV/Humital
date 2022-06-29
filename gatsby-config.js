@@ -25,12 +25,8 @@ module.exports = {
           // you can add your directives or override defaults
         },
       },
-<<<<<<< HEAD
     },
     `gatsby-plugin-react-helmet`,
-=======
-    }`gatsby-plugin-react-helmet`,
->>>>>>> a9178b60608e2c27a6d0b13bced29dfe54f4dcbc
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
