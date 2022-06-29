@@ -4,6 +4,7 @@ import "../../styles/global.css"
 import * as styles from "./layout.module.css"
 import Footer from "../footer/footer"
 import CookieConsent from "react-cookie-consent"
+import { Link } from "gatsby"
 
 const Layout = ({ children }) => {
   return (
@@ -36,7 +37,8 @@ const Layout = ({ children }) => {
         flipButtons={true}
       >
         Omnom Omnom! Wij gebruiken koekjes om jouw ervaring beter te maken. Wil
-        je meer weten welke gegevens we verzamelen? Klik hierè
+        je meer weten welke gegevens we verzamelen? Klik{" "}
+        <Link to="/privacy">hier</Link>
       </CookieConsent>
       <Footer />
     </>
