@@ -14,7 +14,7 @@ const NotFoundPage = () => (
       </h1>
       <StaticImage
         src="../images/404.png"
-        alt="persoon die fiets herstelt"
+        alt="gebroken pot"
         loading="lazy"
         width={500}
         className={styles.notFoundImage}
