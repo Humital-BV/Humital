@@ -16,7 +16,7 @@ const About = () => {
         <div className={styles.founderJLeftContainer}>
           <div className={styles.founderJLeftContent}>
             <StaticImage
-              src="../images/overOns/domienDeRycke_main.svg"
+              src="../images/overOns/janFruytier_main.svg.svg"
               alt="Jan Fruytier"
               width={200}
               className={styles.imageJan}
