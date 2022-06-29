@@ -3,6 +3,8 @@ import * as React from "react"
 import * as styles from "../styles/about.module.css"
 import Layout from "../components/layout/layout"
 import Seo from "../components/seo"
+import founderJ from "../images/overOns/janFruytier_main.svg"
+import founderD from "../images/overOns/domienDeRycke_main.svg"
 
 const About = () => {
   return (
@@ -16,7 +18,7 @@ const About = () => {
         <div className={styles.founderJLeftContainer}>
           <div className={styles.founderJLeftContent}>
             <StaticImage
-              src="../images/overOns/janFruytier_main.svg"
+              src={founderJ}
               alt="Jan Fruytier"
               width={200}
               className={styles.imageJan}
@@ -39,7 +41,7 @@ const About = () => {
         <div className={styles.founderDRightContainer}>
           <div className={styles.founderDRightContent}>
             <StaticImage
-              src="../images/overOns/domienDeRycke_main.svg"
+              src={founderD}
               alt="Domien De Rycke"
               width={200}
               className={styles.imageDomien}

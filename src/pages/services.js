@@ -3,6 +3,11 @@ import * as React from "react"
 import * as styles from "../styles/services.module.css"
 import Layout from "../components/layout/layout"
 import Seo from "../components/seo"
+import bubbleBrain from "../images/services/brainfood.png"
+import bubbleJourney from "../images/services/journey.png"
+import bubbleProject from "../images/services/project.png"
+import bubbleSpeaker from "../images/services/speaker.png"
+import bubbleVisuals from "../images/services/visuals.png"
 
 const Services = () => {
   return (
@@ -17,7 +22,7 @@ const Services = () => {
         <div className={styles.BrainfoodLeftContainer}>
           <div className={styles.BrainfoodLeftContent}>
             <StaticImage
-              src="../images/services/brainfood.png"
+              src={bubbleBrain}
               alt="Brainfood"
               width={300}
               className={styles.imageBrainfood}
@@ -41,7 +46,7 @@ const Services = () => {
         <div className={styles.JourneyRightContainer}>
           <div className={styles.JourneyRightContent}>
             <StaticImage
-              src="../images/services/journey.png"
+              src={bubbleJourney}
               alt="Journey"
               width={300}
               className={styles.imageJourney}
@@ -65,7 +70,7 @@ const Services = () => {
         <div className={styles.ProjectsLeftContainer}>
           <div className={styles.ProjectsLeftContent}>
             <StaticImage
-              src="../images/services/project.png"
+              src={bubbleProject}
               alt="Project"
               width={300}
               className={styles.imageProjects}
@@ -90,7 +95,7 @@ const Services = () => {
         <div className={styles.SpeakerRightContainer}>
           <div className={styles.SpeakerRightContent}>
             <StaticImage
-              src="../images/services/speaker.png"
+              src={bubbleSpeaker}
               alt="Speaker"
               width={300}
               className={styles.imageSpeaker}
@@ -112,7 +117,7 @@ const Services = () => {
         <div className={styles.VisualsLeftContainer}>
           <div className={styles.VisualsLeftContent}>
             <StaticImage
-              src="../images/services/visuals.png"
+              src={bubbleVisuals}
               alt="Visuals"
               width={300}
               className={styles.imageVisuals}
