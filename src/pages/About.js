@@ -52,8 +52,8 @@ const About = () => {
             <p>
               Een wereldverkenner met flexibele en zelfstandige ingesteldheid.
               Ik ben ondernemend effeciënt en heb aandacht voor eenduidige en
-              correcte communicatie. Daarnaast ben ik structureel en
-              georiënteerd en sociaal sterk aanwezig.
+              correcte communicatie. Daarnaast ben ik structureel georiënteerd
+              en sociaal sterk aanwezig.
             </p>
           </div>
         </div>
