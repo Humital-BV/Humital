@@ -60,9 +60,10 @@ const About = () => {
       </div>
 
       <div className={styles.aboutBanner}>
-        <h1 className={styles.bannerTitle}>Visie & Missie</h1>
+        <h1 className={styles.bannerTitle}>Onze Missie & Visie</h1>
       </div>
 
+      {/*----------MISSIE----------*/}
       <div className={styles.containerMissie}>
         <h1 className={styles.missieTitle}>Humital wil, kan, en zal...</h1>
         <ul className={styles.missieTxt}>
@@ -107,7 +108,7 @@ const About = () => {
           </li>
         </ul>
       </div>
-
+      {/*----------VISIE----------*/}
       <div className={styles.visieContainer}>
         <h1 className={styles.visieTitle}>visie</h1>
         <p>

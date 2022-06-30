@@ -171,7 +171,6 @@
 .visieContainer > p {
   font-size: clamp(0.9rem, 1.7vw, 1rem);
   text-align: left;
-  max-width: 65%;
 }
 .visieTitle {
   font-weight: 700;
@@ -245,5 +244,10 @@
   }
   .founderDLeftContent {
     max-width: 83%;
+  }
+
+  /*VISIE*/
+  .visieContainer > p {
+    max-width: 65%;
   }
 }
