@@ -104,6 +104,7 @@
 .containerMissie {
   display: flex;
   flex-direction: column;
+  margin-bottom: 5rem;
 }
 .missieTitle {
   font-weight: 700;
@@ -165,12 +166,12 @@
 .visieContainer {
   display: flex;
   flex-flow: column wrap;
-  margin-bottom: 5rem;
 }
 
 .visieContainer > p {
   font-size: clamp(0.9rem, 1.7vw, 1rem);
   text-align: left;
+  margin-left: 1rem;
 }
 .visieTitle {
   font-weight: 700;

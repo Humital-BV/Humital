@@ -60,9 +60,26 @@ const About = () => {
       </div>
 
       <div className={styles.aboutBanner}>
-        <h1 className={styles.bannerTitle}>Onze Missie & Visie</h1>
+        <h1 className={styles.bannerTitle}>Onze Visie & Missie</h1>
       </div>
 
+      {/*----------VISIE----------*/}
+      <div className={styles.visieContainer}>
+        <h1 className={styles.visieTitle}>visie</h1>
+        <p>
+          We zijn 2 rebelse ondernemers, digitale freaks, die tastbare
+          meerwaarde creëren voor andere ondernemers. Humital richt zich op het
+          begrijpen en het begeleiden van groeiende entrepreneurs, die een
+          strategische <span className={styles.focusVisie}>"humitale"</span>{" "}
+          transformatie willen realiseren
+        </p>
+        <p>
+          We komen niet met een{" "}
+          <span className={styles.focusVisie}>"Plug & Play" </span>oplossing.
+          Niets moet, alles kan! Onze aanbevelingen zullen een wereld van
+          verschil maken.
+        </p>
+      </div>
       {/*----------MISSIE----------*/}
       <div className={styles.containerMissie}>
         <h1 className={styles.missieTitle}>Humital wil, kan, en zal...</h1>
@@ -107,23 +124,6 @@ const About = () => {
             creeëren waar iedereen vrijuit kan spreken
           </li>
         </ul>
-      </div>
-      {/*----------VISIE----------*/}
-      <div className={styles.visieContainer}>
-        <h1 className={styles.visieTitle}>visie</h1>
-        <p>
-          We zijn 2 rebelse ondernemers, digitale freaks, die tastbare
-          meerwaarde creëren voor andere ondernemers. Humital richt zich op het
-          begrijpen en het begeleiden van groeiende entrepreneurs, die een
-          strategische <span className={styles.focusVisie}>"humitale"</span>{" "}
-          transformatie willen realiseren
-        </p>
-        <p>
-          We komen niet met een{" "}
-          <span className={styles.focusVisie}>"Plug & Play" </span>oplossing.
-          Niets moet, alles kan! Onze aanbevelingen zullen een wereld van
-          verschil maken.
-        </p>
       </div>
     </Layout>
   )
