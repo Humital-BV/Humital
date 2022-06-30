@@ -50,7 +50,7 @@ const About = () => {
           <div className={styles.founderDLeftContent}>
             <h4 className={styles.founderName}>Domien De Rycke</h4>
             <p>
-              Een wereldberkenner met flexibele en zelfstandige ingesteldheid.
+              Een wereldverkenner met flexibele en zelfstandige ingesteldheid.
               Ik ben ondernemend effeciënt en heb aandacht voor eenduidige en
               correcte communicatie. Daarnaast ben ik structureel en
               georiënteerd en sociaal sterk aanwezig.
