@@ -24,7 +24,7 @@ const Footer = () => {
             <h4>Over Humital</h4>
           </li>
           <li>
-            <Link to="/about">leer ons kennen</Link>
+            <Link to="/About">leer ons kennen</Link>
           </li>
         </ul>
 

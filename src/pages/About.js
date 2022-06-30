@@ -111,7 +111,7 @@ const About = () => {
       <div className={styles.visieContainer}>
         <h1 className={styles.visieTitle}>visie</h1>
         <p>
-          We zijn 22 rebelse ondernemers, digitale freaks, die tastbare
+          We zijn 2 rebelse ondernemers, digitale freaks, die tastbare
           meerwaarde creëren voor andere ondernemers. Humital richt zich op het
           begrijpen en het begeleiden van groeiende entrepreneurs, die een
           strategische <span className={styles.focusVisie}>"humitale"</span>{" "}
