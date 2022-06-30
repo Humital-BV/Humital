@@ -113,15 +113,18 @@ p {
   .contactWrapper {
     display: flex;
     flex-flow: row nowrap;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    justify-content: center;
   }
   .contactInfo {
-    width: clamp(20%, 50%, 50%);
+    width: clamp(20%, 40%, 50%);
     margin-right: 0;
   }
 
   .maps {
     display: flex;
-    width: clamp(20%, 50%, 50%);
+    width: clamp(20%, 40%, 50%);
     margin-left: 0;
   }
 

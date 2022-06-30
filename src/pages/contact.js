@@ -38,6 +38,8 @@ const Contact = () => {
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
             title="Google Maps Humital Home Address"
+            width="100%"
+            height="100%"
           ></iframe>
         </div>
       </div>

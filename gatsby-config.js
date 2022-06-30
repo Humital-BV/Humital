@@ -10,6 +10,8 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-sitemap",
+    `gatsby-plugin-gatsby-cloud`,
+    /*
     {
       resolve: `gatsby-plugin-csp`,
       options: {
@@ -25,8 +27,7 @@ module.exports = {
           // you can add your directives or override defaults
         },
       },
-    },
-    `gatsby-plugin-react-helmet`,
+    }*/ `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -66,7 +67,7 @@ module.exports = {
           allowAdFeatures: false, // default
         },
       },
-    }*/ {
+    } {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
@@ -92,6 +93,6 @@ module.exports = {
           origin: "YOUR_SELF_HOSTED_ORIGIN",
         },
       },
-    },
+    },*/
   ],
 }
