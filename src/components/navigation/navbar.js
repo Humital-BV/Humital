@@ -42,6 +42,14 @@ const NavBar = () => {
             </li>
             <li>
               <Link
+                to="/values"
+                activeStyle={{ fontWeight: "bold", color: "#78C0A8" }}
+              >
+                Onze waarden
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="/services"
                 activeStyle={{ fontWeight: "bold", color: "#78C0A8" }}
               >

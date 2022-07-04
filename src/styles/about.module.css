@@ -186,7 +186,7 @@
 .focusVisie {
   color: #78c0a8;
   font-weight: bold;
-  font-size: clamp(1.2rem, 1.5vw, 1.3rem);
+  font-size: clamp(1.1rem, 1.3vw, 1.3rem);
 }
 
 /*Different screensizes*/

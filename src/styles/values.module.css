@@ -1,0 +1,116 @@
+/*Global styles for services*/
+
+/* BANNER */
+
+.aboutBanner {
+  display: flex;
+  width: 100%;
+  color: white;
+  background-color: #dacfff;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.bannerTitle {
+  margin-left: 1rem;
+  font-size: clamp(1.6rem, 4vw, 3rem);
+  font-weight: 700;
+}
+
+/* MISSIE */
+.containerMissie {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+.missieTitle {
+  font-weight: 700;
+  font-size: clamp(1.3rem, 4vw, 3rem);
+  margin-bottom: 1rem;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.missieTitle::before {
+  content: "MISSIE";
+  margin-right: 0.8rem;
+  color: #78c0a8;
+  font-size: clamp(1.6rem, 4vw, 3rem);
+}
+
+.missieTxt {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.bulletsMissie {
+  /*position: relative;
+  font-size: clamp(0.8rem, 1.3vw, 1.5rem);
+  margin-right: 1rem;
+  border: 1px solid black;
+  list-style-position: outside;*/
+  list-style-type: none;
+  position: relative;
+  margin-right: 0.8rem;
+  list-style-position: outside;
+  display: block;
+  padding-left: clamp(25px, 3vw, 48px);
+  padding-bottom: 1rem;
+  font-size: clamp(0.9rem, 1.7vw, 1rem);
+  margin-left: 2rem;
+}
+
+.bulletsMissie::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -8px;
+  top: 0;
+  height: 20px;
+  width: clamp(25px, 2.5vw, 48px);
+  background-image: url(../images/overOns/bulletsImg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.focusMissie {
+  color: #78c0a8;
+  font-weight: bold;
+}
+
+/* VISIE */
+
+.visieContainer {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.visieContainer > p {
+  font-size: clamp(0.9rem, 1.7vw, 1rem);
+  text-align: left;
+  margin-left: 1rem;
+}
+.visieTitle {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: left;
+  margin-left: 0.8rem;
+  color: #78c0a8;
+  font-size: clamp(1.6rem, 4vw, 3rem);
+  text-transform: uppercase;
+}
+
+.focusVisie {
+  color: #78c0a8;
+  font-weight: bold;
+  font-size: clamp(1.1rem, 1.3vw, 1.3rem);
+}
+
+/*Different screensizes*/
+
+@media only screen and (min-width: 750px) {
+  /*VISIE*/
+  .visieContainer > p {
+    max-width: 65%;
+  }
+}

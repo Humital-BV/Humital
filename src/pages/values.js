@@ -1,64 +1,12 @@
-import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
-import * as styles from "../styles/about.module.css"
+import * as styles from "../styles/values.module.css"
 import Layout from "../components/layout/layout"
 import Seo from "../components/seo"
 
-const About = () => {
+const Values = () => {
   return (
     <Layout>
-      <Seo title="Over Ons" />
-      <div className={styles.aboutBanner}>
-        <h1 className={styles.bannerTitle}>Meer weten over ons?</h1>
-      </div>
-
-      <div className={styles.founderTopContainer}>
-        <div className={styles.founderJLeftContainer}>
-          <div className={styles.founderJLeftContent}>
-            <StaticImage
-              src="../images/overOns/janFruytier_main.svg"
-              alt="Jan Fruytier"
-              width={200}
-              className={styles.imageJan}
-            ></StaticImage>
-          </div>
-        </div>
-        <div className={styles.founderJRightContainer}>
-          <div className={styles.founderJRightContent}>
-            <h4 className={styles.founderName}>Jan Fruytier</h4>
-            <p>
-              Een ambitieuse en grensverleggende partner. Ik ben daadkrachtig,
-              doortastend en steeds vastberaden. Sociaal, spontaan en een beetje
-              niewsgierig zijn mijn handelsmerk.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className={styles.founderBottomContainer}>
-        <div className={styles.founderDRightContainer}>
-          <div className={styles.founderDRightContent}>
-            <StaticImage
-              src="../images/overOns/domienDeRycke_main.svg"
-              alt="Domien De Rycke"
-              width={200}
-              className={styles.imageDomien}
-            ></StaticImage>
-          </div>
-        </div>
-        <div className={styles.founderDLeftContainer}>
-          <div className={styles.founderDLeftContent}>
-            <h4 className={styles.founderName}>Domien De Rycke</h4>
-            <p>
-              Een wereldverkenner met flexibele en zelfstandige ingesteldheid.
-              Ik ben ondernemend effeciënt en heb aandacht voor eenduidige en
-              correcte communicatie. Daarnaast ben ik structureel georiënteerd
-              en sociaal sterk aanwezig.
-            </p>
-          </div>
-        </div>
-      </div>
-
+      <Seo title="Onze Waarden" />
       <div className={styles.aboutBanner}>
         <h1 className={styles.bannerTitle}>Onze Visie & Missie</h1>
       </div>
@@ -128,4 +76,4 @@ const About = () => {
     </Layout>
   )
 }
-export default About
+export default Values
