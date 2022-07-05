@@ -9,8 +9,16 @@ module.exports = {
     siteUrl: "https://humital.gatsbyjs.io/",
   },
   plugins: [
-    "gatsby-plugin-sitemap",
-    `gatsby-plugin-gatsby-cloud`,
+    `gatsby-plugin-sitemap`,
+
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: "https://humital.gatsbyjs.io/",
+        sitemap: "https://humital.gatsbyjs.io/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    }`gatsby-plugin-gatsby-cloud`,
     /*
     {
       resolve: `gatsby-plugin-csp`,
@@ -57,17 +65,17 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-    /* {
+    {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
-          trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID", // leave empty if you want to disable the tracker
+          trackingId: "", // leave empty if you want to disable the tracker
           cookieName: "gatsby-gdpr-google-analytics", // default
           anonymize: true, // default
           allowAdFeatures: false, // default
         },
       },
-    } {
+    } /* {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
@@ -93,6 +101,6 @@ module.exports = {
           origin: "YOUR_SELF_HOSTED_ORIGIN",
         },
       },
-    },*/
+    },*/,
   ],
 }

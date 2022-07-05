@@ -15,8 +15,8 @@ const Contact = () => {
         <div className={styles.contactInfo}>
           <h1>Humital</h1>
           <p className={styles.address}>
-            Bookmolenstraat 87
-            <span>9111 Belsele</span>
+            Hoevestraat 13
+            <span>3990 Peer</span>
           </p>
 
           <p className={styles.contactJan}>Jan Fruytier - 0472/37 57 83</p>
@@ -33,7 +33,7 @@ const Contact = () => {
         </div>
         <div className={styles.maps}>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.9465397477843!2d4.115734415431693!3d51.1463369448595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c38e5852e01197%3A0x5ca621fc9869c390!2sBookmolenstraat%2087%2C%209111%20Sint-Niklaas!5e0!3m2!1sen!2sbe!4v1653649581975!5m2!1sen!2sbe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.7971418757343!2d5.406728115431102!3d51.13064974600065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c12964c2028885%3A0x7d596eb22928ef95!2sHoevestraat%2013%2C%203990%20Peer!5e0!3m2!1sen!2sbe!4v1657019274431!5m2!1sen!2sbe"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
