@@ -6,7 +6,7 @@ module.exports = {
     title: `Humital`,
     description: `Combining Human with Capital, Humital staat voor jou klaar. Wij helpen jou technologie te combineren met het menselijke`,
     author: `@Kwinten`,
-    siteUrl: "https://humital.gatsbyjs.io/",
+    siteUrl: "humital.be",
   },
   plugins: [
     `gatsby-plugin-sitemap`,
@@ -14,8 +14,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: "https://humital.gatsbyjs.io/",
-        sitemap: "https://humital.gatsbyjs.io/sitemap.xml",
+        host: "humital.be",
+        sitemap: "humital.be/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
