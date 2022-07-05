@@ -18,7 +18,8 @@ module.exports = {
         sitemap: "https://humital.gatsbyjs.io/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
-    }`gatsby-plugin-gatsby-cloud`,
+    },
+    `gatsby-plugin-gatsby-cloud`,
     /*
     {
       resolve: `gatsby-plugin-csp`,
