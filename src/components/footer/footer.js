@@ -48,7 +48,7 @@ const Footer = () => {
           <span>- All Rights Reserved -</span>
         </div>
         <div className={styles.footerBottomWrapper}>
-          <Link to="/sitemap.xml">Sitemap</Link>|
+          <Link to="/sitemap/sitemap-0.xml">Sitemap</Link>|
           <Link to="/privacy">Privacy Policy</Link>
         </div>
       </section>
