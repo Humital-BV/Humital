@@ -4,6 +4,7 @@ import * as React from "react"
 import * as styles from "../styles/index.module.css"
 import Layout from "../components/layout/layout"
 import Seo from "../components/seo"
+import CookieConsent from "react-cookie-consent"
 
 const IndexPage = () => {
   return (
