@@ -12,7 +12,7 @@ const Footer = () => {
         <ul className={styles.footerTopList}>
           <li>
             <h4>
-              <Link to="/home" className={styles.footerLogo}>
+              <Link to="/" className={styles.footerLogo}>
                 Humital
               </Link>
             </h4>
