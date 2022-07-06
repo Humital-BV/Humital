@@ -28,33 +28,7 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <CookieConsent
-        buttonStyle={{
-          background: "#78c0a8",
-          cursor: "pointer",
-          color: "white",
-        }}
-        declineButtonClasses={{
-          background: "#f07818",
-          cursor: "pointer",
-          color: "white",
-        }}
-        location="bottom"
-        buttonText="Accepteer de koekjes"
-        enableDeclineButton
-        declineButtonText="ik wil geen koekjes"
-        cookieName="humitalCookies"
-        onAccept={() => {
-          alert("je hebt de koekjes geaccepteerd!")
-        }}
-        onDecline={() => alert("je weigerde de koekjes")}
-        overlay={true}
-        flipButtons={true}
-      >
-        Omnom Omnom! Wij gebruiken koekjes om jouw ervaring beter te maken. Wil
-        je meer weten welke gegevens we verzamelen? Klik{" "}
-        <Link to="/privacy">hier.</Link>
-      </CookieConsent>
+     
     </Layout>
   )
 }

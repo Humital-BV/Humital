@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
         buttonText="Accepteer de koekjes"
         enableDeclineButton
         declineButtonText="ik wil geen koekjes"
-        cookieName="humitalCookies"
+        cookieName="gatsby-gdpr-google-analytics"
         onAccept={() => {
           alert("je hebt de koekjes geaccepteerd!")
         }}
