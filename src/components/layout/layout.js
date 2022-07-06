@@ -11,6 +11,7 @@ const Layout = ({ children }) => {
     <>
       <div className={styles.flex}>
         <NavBar />
+        <main>{children}</main>
       </div>
       <CookieConsent
         buttonStyle={{
@@ -39,7 +40,6 @@ const Layout = ({ children }) => {
         je meer weten welke gegevens we verzamelen? Klik{" "}
         <Link to="/privacy">hier.</Link>
       </CookieConsent>
-      <main>{children}</main>
       <Footer />
     </>
   )

@@ -7,6 +7,7 @@ module.exports = {
     description: `Combining Human with Capital, Humital staat voor jou klaar. Wij helpen jou technologie te combineren met het menselijke`,
     author: `@Kwinten`,
     siteUrl: "https://humital.gatsbyjs.io/",
+    keywords: "human, help, human-centred, consulting, services",
   },
   plugins: [
     `gatsby-plugin-sitemap`,
