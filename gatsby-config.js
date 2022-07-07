@@ -8,7 +8,7 @@ module.exports = {
     author: `@Kwinten`,
     siteUrl: "https://humital.gatsbyjs.io/",
     keywords: "human, help, human-centred, consulting, services",
-    image: `src/images/logoNew.png`,
+    image: `${__dirname}/src/images/logoNew.png`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,

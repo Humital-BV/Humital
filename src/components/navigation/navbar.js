@@ -34,7 +34,7 @@ const NavBar = () => {
             </li>
             <li>
               <Link
-                to="/About"
+                to="/About/"
                 activeStyle={{ fontWeight: "bold", color: "#78C0A8" }}
               >
                 Onze digitale freaks
