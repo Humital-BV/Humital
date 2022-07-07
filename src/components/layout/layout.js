@@ -14,6 +14,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
       </div>
       <CookieConsent
+        className={styles.cookies}
         buttonStyle={{
           background: "#78c0a8",
           cursor: "pointer",
@@ -29,6 +30,7 @@ const Layout = ({ children }) => {
         enableDeclineButton
         declineButtonText="ik wil geen koekjes"
         cookieName="gatsby-gdpr-google-analytics"
+        expires={999}
         onAccept={() => {
           alert("je hebt de koekjes geaccepteerd!")
         }}
