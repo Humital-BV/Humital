@@ -21,6 +21,7 @@ const Services = () => {
               alt="Brainfood"
               width={300}
               className={styles.imageBrainfood}
+              loading="lazy"
             ></StaticImage>
           </div>
         </div>
@@ -45,6 +46,7 @@ const Services = () => {
               alt="Journey"
               width={300}
               className={styles.imageJourney}
+              loading="lazy"
             ></StaticImage>
           </div>
         </div>
@@ -69,6 +71,7 @@ const Services = () => {
               alt="Project"
               width={300}
               className={styles.imageProjects}
+              loading="lazy"
             ></StaticImage>
           </div>
         </div>
@@ -94,6 +97,7 @@ const Services = () => {
               alt="Speaker"
               width={300}
               className={styles.imageSpeaker}
+              loading="lazy"
             ></StaticImage>
           </div>
         </div>
@@ -116,6 +120,7 @@ const Services = () => {
               alt="Visuals"
               width={300}
               className={styles.imageVisuals}
+              loading="lazy"
             ></StaticImage>
           </div>
         </div>

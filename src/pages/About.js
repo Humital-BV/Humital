@@ -20,6 +20,7 @@ const About = () => {
               alt="Jan Fruytier"
               width={200}
               className={styles.imageJan}
+              loading="lazy"
             ></StaticImage>
           </div>
         </div>
@@ -43,6 +44,7 @@ const About = () => {
               alt="Domien De Rycke"
               width={200}
               className={styles.imageDomien}
+              loading="lazy"
             ></StaticImage>
           </div>
         </div>
