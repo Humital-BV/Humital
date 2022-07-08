@@ -4,16 +4,11 @@ import * as React from "react"
 import * as styles from "../styles/index.module.css"
 import Layout from "../components/layout/layout"
 import Seo from "../components/seo"
-import previewImage from "../images/logoNew.png"
 
 const IndexPage = () => {
   return (
     <Layout>
-      <Seo
-        title="Home"
-        image={previewImage}
-        pathname={this.props.location.pathname}
-      />
+      <Seo title="Home" />
       <div className={styles.indexMain}>
         <div className={styles.ctaContent}>
           <div className={styles.ctaWrapper}>

@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function Seo({ description, lang, meta, image: metaImage, title, pathname }) {
+function Seo({ description, lang, meta, title, pathname }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -23,10 +23,7 @@ function Seo({ description, lang, meta, image: metaImage, title, pathname }) {
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
   const keywords = site.siteMetadata.keywords
-  const image =
-    metaImage && metaImage.src
-      ? `${site.siteMetadata.siteUrl}${metaImage.src}`
-      : null
+  const image = site.siteMetadata.image
   const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
 
   return (
@@ -53,7 +50,7 @@ function Seo({ description, lang, meta, image: metaImage, title, pathname }) {
         },
         {
           name: `keywords`,
-          content: keywords.join(","),
+          content: keywords,
         },
         {
           property: `og:title`,
@@ -83,7 +80,7 @@ function Seo({ description, lang, meta, image: metaImage, title, pathname }) {
         },
       ]
         .concat(
-          metaImage
+          image
             ? [
                 {
                   property: "og:image",
@@ -91,11 +88,11 @@ function Seo({ description, lang, meta, image: metaImage, title, pathname }) {
                 },
                 {
                   property: "og:image:width",
-                  content: metaImage.width,
+                  content: image.width,
                 },
                 {
                   property: "og:image:height",
-                  content: metaImage.height,
+                  content: image.height,
                 },
                 {
                   name: "twitter:card",
