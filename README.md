@@ -16,6 +16,11 @@ it will be seperated by a dotted line
 #1: Can't click on mail to send a mail from html. - 08/07/2022
 FIX: added the anchor '<a>'element with the 'mailto:' attribute to fix :) - 08/07/2022
 
+---
+
+#2: Typo in About page > Domien - 08/07/2022
+FIX: fixed the type :) - 08/07/2022
+
 > > > > > > >
 
 <!-- AUTO-GENERATED-CONTENT:END -->
