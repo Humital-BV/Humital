@@ -8,7 +8,7 @@ module.exports = {
     author: `@Kwinten`,
     siteUrl: "https://humital.gatsbyjs.io",
     keywords:
-      "human, help, human-centred, consulting, services, humital, capital",
+      "human, help, human-centred, consulting, services, humital, capital, Jan, Domien, Fruytier, De Rycke, founders, human-centred",
     image: `/logoNew.png`,
   },
   plugins: [

@@ -31,10 +31,6 @@ const Layout = ({ children }) => {
         declineButtonText="ik wil geen koekjes"
         cookieName="gatsby-gdpr-google-analytics"
         expires={999}
-        onAccept={() => {
-          alert("je hebt de koekjes geaccepteerd!")
-        }}
-        onDecline={() => alert("je weigerde de koekjes")}
         overlay={true}
         flipButtons={true}
       >
