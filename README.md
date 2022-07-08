@@ -1,16 +1,20 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 
-My first project. Here, I will try and document the changes I've made.
+Hello lovely reader! :) My name is Kwinten. I developed this site using the Gatsbyjs framework.
 
-This project aims to create a website for Humital.
+Humital is my first project. It is founded by Jan & Domien.
 
-Update 28/06: Attempting to put site on Github Pages
-Trying to get a "gh pages" branch
-Update 29/06: About page issues. Not working well. Only page that isn't being generated.
-Update 29/06: site is live on gatsby hosting for now
-Update 29/06: for some reason, images not loading.
-update 29/06: major image issues still
-Update 30/06: Fixed some issues. Not deplying on GH pages anymore. Gatsby cloud for now as a temporary solution.
+In this README, we will collect user feedback and the solutions we've provided. The format will be as follows:
+
+#1 'example of feedback/issue to be solved' - DATE in format DD/MM/YYYY
+FIX: 'comment on the fix and how it was done' - DATE in format DD/MM/YYYY
+
+it will be seperated by a dotted line
+
+---
+
+#1: Can't click on mail to send a mail from html. - 08/07/2022
+FIX: added the anchor '<a>'element with the 'mailto:' attribute to fix :) - 08/07/2022
 
 > > > > > > >
 
