@@ -2,7 +2,6 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import { propTypes } from "gatsby-plugin-image/dist/src/components/gatsby-image.server"
 
 function Seo({ description, lang, meta, image: metaImage, title, pathname }) {
   const { site } = useStaticQuery(
@@ -132,7 +131,7 @@ Seo.propTypes = {
     height: PropTypes.number.isRequired,
     width: PropTypes.number.isRequired,
   }),
-  pathname: propTypes.string,
+  pathname: PropTypes.string,
 }
 
 export default Seo
