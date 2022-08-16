@@ -25,8 +25,6 @@
 /* Jan */
 
 .imageJan {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -65,8 +63,6 @@
 /* Domien */
 
 .imageDomien {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
