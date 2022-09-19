@@ -30,7 +30,7 @@ const About = () => {
             <p>
               Een ambitieuse en grensverleggende partner. Ik ben daadkrachtig,
               doortastend en steeds vastberaden. Sociaal, spontaan en een beetje
-              niewsgierig zijn mijn handelsmerk.
+              nieuwsgierig zijn mijn handelsmerk.
             </p>
           </div>
         </div>

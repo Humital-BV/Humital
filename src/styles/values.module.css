@@ -67,8 +67,8 @@
   position: absolute;
   left: -8px;
   top: 0;
-  height: 20px;
-  width: clamp(25px, 2.5vw, 48px);
+  height: 15px;
+  width: clamp(25px, 2vw, 48px);
   background-image: url(../images/overOns/bulletsImg.png);
   background-repeat: no-repeat;
   background-size: 100%;
